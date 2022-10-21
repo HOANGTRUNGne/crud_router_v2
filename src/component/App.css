@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  user-select: none;
+}
+.App{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+}
+
+.header a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*.header a.active {*/
+/*  background-color: #04AA6D;*/
+/*  color: white;*/
+/*}*/
